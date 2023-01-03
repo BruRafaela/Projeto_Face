@@ -1,0 +1,190 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+.center{
+	max-width: 1280px;
+	padding: 0 2%;
+	margin: 0 auto;
+}
+.clear{
+	clear: both;
+}
+header{
+	background-color: #4048a3;
+	padding: 7px 0;
+}
+.logo{
+	float: left;
+	color: white;
+}
+.logo h2{
+	font-size: 30px;
+	font-weight: bold;
+}
+.form-login{
+	float: right;
+
+}
+.form-login .form-element{
+	display: inline-block;
+	margin-right: 10px;
+}
+.form-element p{
+	color: white;
+	font-size: 14px;
+}
+.form-element input[type=email],
+.form-element input[type=password]{
+	margin-top: 4px;
+	border: 0;
+	height: 20px;
+	padding-left: 5 px;
+}
+.form-element input[type=submit]{
+	cursor: pointer;
+	border: 2px solid #414aab;
+	background-color:#5c65bd;
+	color: white;
+	padding: 3px 8px;
+}
+.form-element input[type=submit]:hover{
+	background:#4f58b8;
+}
+section.main{
+	background: linear-gradient(white, #D3D8E8);
+	padding: 40px 0;
+}
+.center > p{
+	font-size: 23px;
+	font-weight: 500;
+	max-width: 500px;
+	margin-left: 5%;
+	text-align: justify;
+}
+.img-conect{
+	float: left;
+	width: 60%;
+}
+.img-conect img{
+	max-width: 100%;
+	margin-left: 5%;
+}
+.abrir-conta{
+	float: left;
+	width: 40%;
+}
+.abrir-conta h2{
+	margin-top: -80px;
+	font-size: 27px;
+}
+.abrir-conta h3{
+	font-size: 20px;
+	margin: 10px 0;
+	font-weight: normal;
+}
+.w50{
+	width: 50%;
+	padding: 5px;
+	float: left;
+}
+.w100{
+	width: 100%;
+	padding: 5px;
+	float: left;
+}
+form input{
+	width: 100%;
+	margin-top: 10px;
+}
+.criar-conta input[type=email],
+.criar-conta input[type=text],
+.criar-conta input[type=password]{
+	height: 30px;
+	padding-left: 10px;
+	font-size: 16px;
+	border:1px solid #a5dcff;
+	border-radius: 6px;
+}
+
+.date{
+	width: 100%;
+	padding: 5px;
+	float: left;
+}
+.date > h4{
+	margin-top: 10px;
+	font-weight: 500;
+}
+.date input[type=date]{
+	height: 30px;
+	max-width: 150px;
+	padding-left: 10px;
+	font-size: 16px;
+	border:1px solid #a5dcff;
+	border-radius: 6px;
+}
+.input-radio{
+	float: left;
+	width: 25%;
+	margin: 15px 0;
+}
+.input-radio h2{
+	display: inline-block;
+	font-size: 18px;
+	font-weight:300;
+}
+.input-radio input[type=radio]{
+	width: auto !important;
+	display: inline-block;
+}
+
+
+.criar-conta input[type=submit]{
+	max-width:170px;
+	font-size: 18px;
+	height: 35px;
+	background: linear-gradient(#67ae55, #578843);
+	color: white;
+	cursor: pointer;
+	border: 0;
+	border-radius: 5px;
+	
+}
+.linguas{
+	text-align: center;
+	padding: 30px 0px;
+	background: white;
+}
+.linguas a{
+	color: #365899;
+	font-size: 12px;
+	padding-right: 20px;
+	text-decoration: none;
+}
+.linguas a.selected-lingua{
+	color: #737373;
+}
+.linguas > .center{
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+footer{
+	width: 70%;
+	max-width: 950px;
+	margin-top: -20px;
+	margin-left: 20%;
+	text-align: center;
+	padding: 10px 0px;
+	background: white;
+}
+footer a{
+	color: #365899;
+	font-size: 13px;
+	padding-right: 20px;
+	text-decoration: none;
+}
