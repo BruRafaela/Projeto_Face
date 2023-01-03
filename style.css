@@ -188,3 +188,53 @@ footer a{
 	padding-right: 20px;
 	text-decoration: none;
 }
+
+@media screen and (max-width: 768px){
+ 	.logo{
+ 		float: none;
+ 		width: 100%;
+ 		text-align: center;
+ 	}
+ 	.form-login{
+ 		margin-top: 20px;
+ 		display: inline-block;
+ 		float: none;
+ 		width: 100%;
+ 		text-align: center;
+ 	}
+ 	.form-element{
+ 		display: block;
+ 		margin: 10px 0;
+ 	}
+ 	.form-element input[type=email],
+	.form-element input[type=password]{
+	margin-top: 4px;
+	border: 0;
+	height: 20px;
+	padding-left: 5 px;
+	width: 100%;
+	max-width: 320px;
+	}
+	.img-conect,
+	.center > p{
+		display: none;
+	}
+	.abrir-conta{
+		width: 100%;
+		margin-top: 70px;
+	}
+}
+
+@media screen and (max-width: 980px){
+	.img-conect,
+	.center > p{
+		display: none;
+	}
+	.abrir-conta{
+		width: 100%;
+		margin-top: 70px;
+	}
+	.abrir-conta h2{
+		text-align: center;
+	}
+}
